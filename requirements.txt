@@ -1,0 +1,8 @@
+fastapi==0.143.0
+uvicorn==0.54.0
+httpx==0.28.1
+beautifulsoup4==4.15.0
+pypdf>=6,<7
+pytest==9.1.1
+pytest-asyncio==1.4.0
+cryptography>=46,<51

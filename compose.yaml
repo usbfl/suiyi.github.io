@@ -1,0 +1,14 @@
+services:
+  alphalab:
+    build: .
+    restart: unless-stopped
+    # Terminate HTTPS with your reverse proxy; don't expose an HTTP API publicly.
+    ports:
+      - "127.0.0.1:8010:8010"
+    env_file: .env.production
+    environment:
+      ARENA_DB: /app/data/arena.sqlite3
+    volumes:
+      - alphalab-data:/app/data
+volumes:
+  alphalab-data:

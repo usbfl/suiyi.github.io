@@ -1,0 +1,16 @@
+{
+  "name": "alpha-arena",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test:browser": "node tests/browser-workflow.cjs && node tests/browser-config.cjs && node tests/browser-market.cjs",
+    "test:browser:workflow": "node tests/browser-workflow.cjs",
+    "test:browser:config": "node tests/browser-config.cjs",
+    "test:browser:market": "node tests/browser-market.cjs",
+    "test:browser:visual": "node tests/browser-visual.cjs",
+    "test:browser:pages": "node tests/browser-pages.cjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.0"
+  }
+}

@@ -1,0 +1,11 @@
+.git
+.env
+.env.*
+.venv
+data
+node_modules
+__pycache__
+test-results
+_site
+upload
+*.zip

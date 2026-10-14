@@ -1,0 +1,11 @@
+.env
+.venv/
+data/
+log/
+node_modules/
+__pycache__/
+.pytest_cache/
+test-results/
+
+_site/
+.env.production

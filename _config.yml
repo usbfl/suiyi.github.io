@@ -1,0 +1,19 @@
+# Keep the existing GitHub Pages main/root publishing source.
+# Publish the frontend; the complete Python source remains in the Git repository.
+include:
+  - static
+exclude:
+  - app
+  - tests
+  - tools
+  - docs
+  - README.md
+  - requirements.txt
+  - requirements.lock.txt
+  - package.json
+  - package-lock.json
+  - pytest.ini
+  - run.ps1
+  - Dockerfile
+  - compose.yaml
+  - _site
